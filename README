@@ -1,4 +1,8 @@
-Die folgenden Änderungen wurden am Betriebsystemm vorgenommen:
+Dieses Programm implementiert ein Gleisistellpult für einen RaspberryPi mit
+einem 7" Tochscreen mit der Auflösung 800x480.
+
+Die folgenden Änderungen wurden am Betriebsystemm Raspbian/Jessie vorgenommen,
+um den Touchscreen um 180 zu drehen:
 
 /etc/boot.config:
 

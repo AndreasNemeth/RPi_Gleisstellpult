@@ -13,13 +13,13 @@ import copy
 import RPi.GPIO as GPIO
 
 
-version = "1.5.1" # 1.0 Function Keys, Hilfetext mit Strg+h, getestet mit Schaltung
+version = "2.0" # 1.0 Function Keys, Hilfetext mit Strg+h, getestet mit Schaltung
                 # 1.1 Shutdowen Funktion
                 # 1.2 Konfiguration aus Datei einlesen
                 # 1.3 Stromschalter fuer Abstellgleise
                 # 1.4 Lok Liste
                 # 1.5 Buttons üeber Gleis positioniert
-                # 2.0 Resized fuer 7zoll Display
+                # 2.0 Resized fuer 7zoll Display, no window decoration
 on = 0
 off = 1
 fahrweg = 8
