@@ -1,0 +1,7 @@
+Die folgenden Änderungen wurden am Betriebsystemm vorgenommen:
+
+/etc/boot.config:
+
+# rotate display 180° 
+#display_rotate=2
+lcd_rotate=2
