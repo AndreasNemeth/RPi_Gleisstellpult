@@ -1,0 +1,15 @@
+------------------------------------------------------------------------------
+Funktionstasten F1 - F9: Fahrstrasse stellen
+Taste 0-9:               Debug Level setzen
+Eingabe w[1-10]r|g:      Weiche <Nr> auf rund oder gerade stellen
+Eingabe a|l[1-3]:        Abstellgleis oder Lokschuppen ein/aus schalten 
+Strg+t:                  Weichentest starten
+                            Alle Weichen werden nacheinander zunächst auf 
+                            gerade und dann auf rund gestellt.
+Strg+x:                  Beendet das Programm
+Strg+h:                  Zeigt diesen Text
+------------------------------------------------------------------------------
+
+
+
+
