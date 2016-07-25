@@ -1,6 +1,6 @@
 Dieses Programm implementiert ein Gleisstellpult für einen RaspberryPi mit
 einem 7" Tochscreen mit der Auflösung 800x480. Mithilfe des Stellpults werden
-10 Märklin Stellantriebe anbgesteuert.
+10 Märklin Magnetweichenantriebe anbgesteuert.
 
 Die folgenden Änderungen wurden am Betriebsystemm Raspbian/Jessie vorgenommen,
 um den Touchscreen um 180 zu drehen:
@@ -10,3 +10,24 @@ um den Touchscreen um 180 zu drehen:
 # rotate display 180° 
 #display_rotate=2
 lcd_rotate=2
+
+
+Erzeugt eiun Desktop Icon um die Stellpunkt App zu starten
+/home/pi/Desktop/stellpult.desktop:
+
+[Desktop Entry]
+Type=Application
+Name=Stellpult
+Exec=/home/pi/projects/run/stellpult/run_stellpult.sh
+Terminal=false
+Icon=/home/pi/projects/run/stellpult/images/Zug-48.gif
+
+Startet die Stellpult App beim Login
+
+~/.config/autostart/stellpult.desktop:
+[Desktop Entry]
+Type=Application
+Name=Stellpult
+Exec=/home/pi/projects/run/stellpult/run_stellpult.sh
+StartNotify=false
+
